@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    
+    <title>TODO supply a title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+  </head>
+  
+  <body>
+    
+    <form method="POST" action="aula_05.php">
+      
+      <fieldset>
+      
+        <legend>Cadastro de Livro</legend>
+        
+        <p><label for="titulo">Título:<input type="text" name="titulo_livro" placeholder="Título do Livro"></label></p>
+        
+        <p><label for="autor">Autor:<input type="text" name="autor_livro" placeholder="Autor do Livro"></label></p>
+        
+        <p><label for="editoras">Editoras:
+            <select name="nomes_editoras">
+              <option value="Saraiva" name="saraiva">Saraiva</option>
+              <option value="Abril" name="abril">Abril</option>
+              <option value="Campus" name="campus">Campus</option>
+            </select>
+          </label>
+        </p>
+        
+        <p><label for="preco">Preço:<input type="number" name="valor_livro"></label></p>
+        
+        <input type="submit" name="button" value="Cadastrar">
+        <input type="submit" name="button" value="Deletar">
+        <input type="submit" name="button" value="Atualizar">
+        <input type="submit" name="button" value="Selecionar">
+        <input type="submit" name="button" value="Limpar">
+        
+      </fieldset>
+      
+    </form>
+    
+  </body>
+  
+</html>
