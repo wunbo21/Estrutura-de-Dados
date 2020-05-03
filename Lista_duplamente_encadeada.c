@@ -7,8 +7,8 @@ typedef struct{
 	struct lista* ant;
 }lista;
 
-lst_cria();
-lst_imprime(lista* l);
+void lst_cria();
+void lst_imprime(lista* l);
 lista* lst_insere(lista* l, int n);
 lista* ins_ultimo(lista* l, int n);
 
@@ -36,11 +36,11 @@ int main(){
 	return 0;
 }
 
-lst_cria(){
+void lst_cria(){
 	return NULL;
 }
 
-lst_imprime(lista* l){
+void lst_imprime(lista* l){
 	lista* p = l;
 	while(p != NULL){
 		printf("%d -> ", p->num);
