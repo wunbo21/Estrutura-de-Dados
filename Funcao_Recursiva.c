@@ -9,10 +9,10 @@ int main(){
 	int i, n, achou;
 	float *v;
 	float proc;
-	/* Leitura do número de valores */
+	/* Leitura do nÃºmero de valores */
 	printf("\nEntre com o numero de valores do vetor: ");
 		scanf("%d", &n);
-	/* Alocação Dinâmica */
+	/* AlocaÃ§Ã£o DinÃ¢mica */
 	v = (float*) malloc(n*sizeof(float));
 	if(v==NULL){
 		printf("Memoria Insuficiente.\n");
