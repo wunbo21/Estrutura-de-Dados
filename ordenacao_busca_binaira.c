@@ -30,8 +30,8 @@ int main(){
 	printf ("\nInsira o valor a ser buscado: ");
 	scanf ("%f", &num);
 	procura = procuraBinaria(v, num, 0, n);
-	if (procura == -1) printf ("O valor n„o foi encontrado no vetor");
-	else printf ("O valor foi encontrado na posiÁ„o %d", procura);
+	if (procura == -1) printf ("O valor n√£o foi encontrado no vetor");
+	else printf ("O valor foi encontrado na posi√ß√£o %d", procura);
 		
 	return 0;
 }
