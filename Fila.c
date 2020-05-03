@@ -34,10 +34,10 @@ int main(){
 	
 	fila_imprime(f1); // Imprimindo a Fila
 	
-	/* Considerando que todas as funÁıes que manipulam filas est„o disponÌveis,
-		 crie uma funÁ„o que receba como par‚metro trÍs filas (f1, f2, f3) e 
+	/* Considerando que todas as fun√ß√µes que manipulam filas est√£o dispon√≠veis,
+		 crie uma fun√ß√£o que receba como par√¢metro tr√™s filas (f1, f2, f3) e 
 		 retir alternadamente os elementos de f1 e f2, enchendo f3 ao final da 
-		 funÁ„o as filas f1 e f2 devem estar vazias
+		 fun√ß√£o as filas f1 e f2 devem estar vazias
 	*/
 	
 	system("pause");
@@ -54,7 +54,7 @@ Fila* fila_cria(){
 Fila* fila_insere(Fila* f1, float v){
 	int fim;
 
-	if(f1->n == N){ // Verifico se a fila est· cheia
+	if(f1->n == N){ // Verifico se a fila est√° cheia
 		printf("Fila cheia.");
 		exit(1);
 	}
@@ -73,7 +73,7 @@ Fila* fila_imprime(Fila* f1){
 
 float fila_retira(Fila* f1){
 	float v;
-	if(f1->n == 0){ // Verifico se a fila est· vazia
+	if(f1->n == 0){ // Verifico se a fila est√° vazia
 		printf("Fila vazia.");
 		exit(1);
 	}
