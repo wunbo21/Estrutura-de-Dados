@@ -14,11 +14,11 @@ lista* ins_ultimo(lista* l, int n);
 
 int main(){
 	
-	lista *l; //Declara uma lista não iniciada
+	lista *l; //Declara uma lista nÃ£o iniciada
 	
-	l = lst_cria(); //Implementa uma função "lista* lst_cria(void)", para iniciar uma lista vazia 
+	l = lst_cria(); //Implementa uma funÃ§Ã£o "lista* lst_cria(void)", para iniciar uma lista vazia 
 	
-	// Implementar a função "lista* lst_insere(lista* l, int n)", que insere um novo elemento
+	// Implementar a funÃ§Ã£o "lista* lst_insere(lista* l, int n)", que insere um novo elemento
 	l = lst_insere(l, 78);
 	l = lst_insere(l, 56);
 	l = lst_insere(l, 45);
@@ -26,7 +26,7 @@ int main(){
 	
 	lst_imprime(l);	
 	
-	// Implementar a função "lista* ins_ultimo(lista* l, int n)", que insere um novo elemento na última posição
+	// Implementar a funÃ§Ã£o "lista* ins_ultimo(lista* l, int n)", que insere um novo elemento na Ãºltima posiÃ§Ã£o
 	l = ins_ultimo(l, 88);
 	
 	printf("\n");
