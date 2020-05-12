@@ -21,16 +21,12 @@ int hash(int mat);
 int main() {
 
   Hash tab;
-  Hash tab2;
 
   int i = 0;
   char nome[64];
 
   for(i = 0; i < N; i++)
     tab[i] = NULL;
-
-  for(i = 0; i < N; i++)
-    tab2[i] = NULL;
 
   strcpy(nome,"Marco");
   i = insere (&tab, 127, nome);
